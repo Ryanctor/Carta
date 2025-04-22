@@ -7,18 +7,26 @@
 </head>
 <body>
 
+  <!-- Envelope fechado -->
   <img id="envelope" src="img/envelopefechado1.png" alt="Envelope Fechado">
 
-  <div id="mensagem-container">
+  <!-- Envelope aberto + folha com mensagem -->
+  <div id="mensagem-container" style="display: none;">
     <img id="envelope-aberto" src="img/envelopeaberto1.png" alt="Envelope Aberto">
-    <div id="folha">
-      <p>Mensagem Aqui</p>
+    <div id="folha" style="display: none;">
+      <p>Quer namorar comigo?</p>
       <div class="botoes">
-        <button class="botao-normal">Sim </button>
+        <button class="botao-normal">Sim</button>
         <button class="botao-pequeno">Não</button>
       </div>
     </div>
   </div>
+
+  <!-- Resposta após clicar "Sim" -->
+  <div id="resposta-sim" style="display: none;">
+    <p>Te amo 💖</p>
+  </div>
+  
 
   <script src="js.js"></script>
 </body>
